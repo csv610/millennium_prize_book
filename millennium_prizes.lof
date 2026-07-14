@@ -1,0 +1,27 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The classification of surfaces by genus: every closed orientable surface is homeomorphic to a sphere with $g$ handles.}}{7}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Any loop on a simply connected surface (such as $S^2$) can be continuously contracted to a point. This is the property that the Poincar\'{e} conjecture seeks to generalize to three dimensions.}}{7}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces The Ricci flow smooths out irregularities in curvature, analogous to heat diffusion. A ``dumbbell'' shape with a thin neck (high curvature) evolves toward a round sphere. The thin neck pinches off and the geometry becomes uniform.}}{9}{figure.caption.7}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The Euler product decomposes the zeta function into a product over all primes. Each prime $p$ contributes a local factor $(1 - p^{-s})^{-1}$, encoding all information about divisibility by $p$.}}{23}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The critical strip and critical line in the complex plane. The Riemann hypothesis asserts that all non-trivial zeros of $\zeta (s)$ lie on the dashed critical line $\Re (s) = \frac {1}{2}$. The trivial zeros lie at the negative even integers.}}{27}{figure.caption.9}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The relationship between the complexity classes P, NP, coNP, and NP-complete. If P $\neq $ NP, the NP-complete problems form a region inside NP but outside P. The class coNP overlaps with NP but is believed to be distinct from it.}}{49}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A chain of polynomial-time reductions among NP-complete problems. Each arrow $A \leq _p B$ means that $A$ can be reduced to $B$ in polynomial time, so $B$ is at least as hard as $A$. Since SAT is NP-complete, all these problems are equivalent in difficulty.}}{51}{figure.caption.12}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A fluid element illustrating incompressibility. The condition $\nabla \cdot \mathbf {v} = 0$ requires that the net flux of fluid into any volume equals the net flux out: fluid elements deform but do not change volume.}}{65}{figure.caption.14}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Laminar versus turbulent flow in a channel. At low Reynolds numbers (top), viscous forces dominate and the flow follows smooth, parallel streamlines. At high Reynolds numbers (bottom), inertial forces dominate and the flow becomes chaotic and multiscale.}}{69}{figure.caption.15}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Comparison of U(1) gauge theory (QED) and SU(3) gauge theory (QCD). In QED, the photon is electrically neutral and does not interact with itself. In QCD, gluons carry color charge and interact via three-gluon and four-gluon vertices---a direct consequence of the non-abelian gauge structure.}}{92}{figure.caption.16}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The mass gap in Yang--Mills theory. The spectral density $\rho (E^2)$ vanishes for $0 < E^2 < \Delta ^2$: there are no excitations between the vacuum (energy~0) and the lightest particle (mass $\Delta $). This strict positive gap is what the Millennium Problem asks to prove rigorously.}}{96}{figure.caption.17}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The Hodge decomposition: the $k$th cohomology of a compact K\"{a}hler manifold splits into $(p,q)$-types. Each piece $H^{p,q}$ is spanned by harmonic $(p,q)$-forms, and $h^{p,q} = h^{q,p}$ by complex conjugation.}}{117}{figure.caption.18}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces An algebraic curve $C$ on a surface $X$ defines a cohomology class $[C]$ of type $(1,1)$. The Hodge conjecture asserts that every rational $(p,p)$-class arises from such algebraic cycles.}}{120}{figure.caption.19}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces The chord-tangent group law on $E: y^2 = x^3 - x$. The line through $P$ and $Q$ meets $E$ at a third point $R$; reflecting $R$ across the $x$-axis gives $P \oplus Q$.}}{131}{figure.caption.20}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces The BSD conjecture relates the analytic order of vanishing of $L(E,s)$ to the algebraic rank of $E(\mathbb {Q})$, and the leading coefficient to the period, regulator, Tamagawa numbers, and the Tate--Shafarevich group.}}{139}{figure.caption.21}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

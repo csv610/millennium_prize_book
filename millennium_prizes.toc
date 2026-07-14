@@ -1,0 +1,366 @@
+\contentsline {chapter}{Preface}{xv}{chapter*.4}%
+\contentsline {part}{I\hspace {1em}The Solved Problem}{1}{part.1}%
+\contentsline {chapter}{\numberline {1}The Poincar\'{e} Conjecture}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Topological Preliminaries}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}The Fundamental Group}{5}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Higher Homotopy Groups}{6}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Homology and Cohomology}{6}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}The Classification of Surfaces}{6}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Connected Sum and Prime Decomposition}{7}{subsection.1.2.5}%
+\contentsline {section}{\numberline {1.3}Statement of the Conjecture}{7}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}The Poincar\'{e} Conjecture in Higher Dimensions}{7}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Historical Formulations}{8}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Hamilton's Program: The Ricci Flow}{8}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}The Heat Analogy}{9}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}The Singularity Problem}{9}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Hamilton's Results}{9}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1.5}Perelman's Breakthrough}{10}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}1. The Entropy Functional}{10}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}2. No Local Collapsing Theorem}{10}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}3. Ricci Flow with Surgery}{10}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}The Canonical Neighborhood Theorem}{10}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}Finite Extinction Time}{11}{subsection.1.5.5}%
+\contentsline {section}{\numberline {1.6}Verification and Acceptance}{11}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}The Verification Efforts}{11}{subsection.1.6.1}%
+\contentsline {section}{\numberline {1.7}The Thurston Geometrization Conjecture}{11}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}The Eight Thurston Geometries}{12}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}The Poincar\'{e} Conjecture as a Special Case}{12}{subsection.1.7.2}%
+\contentsline {section}{\numberline {1.8}The Human Story}{12}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Grigori Perelman}{12}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}The Controversies}{12}{subsection.1.8.2}%
+\contentsline {subsection}{\numberline {1.8.3}Richard Hamilton}{13}{subsection.1.8.3}%
+\contentsline {subsection}{\numberline {1.8.4}William Thurston}{13}{subsection.1.8.4}%
+\contentsline {section}{\numberline {1.9}The Ricci Flow in Higher Dimensions}{13}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Applications and Legacy}{13}{section.1.10}%
+\contentsline {subsection}{\numberline {1.10.1}Geometric Topology}{13}{subsection.1.10.1}%
+\contentsline {subsection}{\numberline {1.10.2}Geometric Analysis}{13}{subsection.1.10.2}%
+\contentsline {subsection}{\numberline {1.10.3}Physics}{13}{subsection.1.10.3}%
+\contentsline {section}{\numberline {1.11}Exercises}{14}{section.1.11}%
+\contentsline {section}{\numberline {1.12}Further Reading}{14}{section.1.12}%
+\contentsline {part}{II\hspace {1em}The Open Problems}{17}{part.2}%
+\contentsline {chapter}{\numberline {2}The Riemann Hypothesis}{19}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{19}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Prime Numbers}{20}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Definition and the Fundamental Theorem}{20}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}The Distribution of Primes}{20}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}The Prime Number Theorem}{21}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}The Riemann Zeta Function}{21}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Definition and Basic Properties}{21}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}The Euler Product}{22}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}The Gamma Function}{24}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}The Functional Equation and Analytic Continuation}{25}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Zeros of the Zeta Function}{26}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Trivial Zeros}{26}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}The Critical Strip and the Critical Line}{26}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}The Riemann--von Mangoldt Formula}{28}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Visual Description of the Zeros}{28}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}The Prime Number Theorem and the Error Term}{29}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}From Zeta to Primes: The Proof Sketch of PNT}{29}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}The Error Term and the Riemann Hypothesis}{29}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Li$(x)$ vs.\ $\pi (x)$}{30}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Computational Evidence}{30}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}History of Computing Zeros}{30}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}The Riemann--Siegel Formula}{31}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}The Montgomery Pair Correlation Conjecture}{31}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.7}The Explicit Formula}{32}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}The Von Mangoldt Function and $\psi (x)$}{32}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}The Explicit Formula}{32}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}How RH Gives the Optimal Error Term}{33}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}Primes as Evenly Distributed as Possible}{33}{subsection.2.7.4}%
+\contentsline {section}{\numberline {2.8}Generalizations}{33}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Dirichlet $L$-Functions}{33}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}The Generalized Riemann Hypothesis}{34}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Dedekind Zeta Functions}{34}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}The Weil Conjectures}{34}{subsection.2.8.4}%
+\contentsline {subsection}{\numberline {2.8.5}The Langlands Program}{35}{subsection.2.8.5}%
+\contentsline {section}{\numberline {2.9}Attempted Proofs and Progress}{35}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}Hardy's Theorem}{35}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {2.9.2}Selberg, Levinson, and Conrey}{35}{subsection.2.9.2}%
+\contentsline {subsection}{\numberline {2.9.3}The De Bruijn--Newman Constant}{36}{subsection.2.9.3}%
+\contentsline {subsection}{\numberline {2.9.4}Claimed Proofs and Why They Failed}{36}{subsection.2.9.4}%
+\contentsline {subsection}{\numberline {2.9.5}The Barriers}{36}{subsection.2.9.5}%
+\contentsline {section}{\numberline {2.10}Consequences}{37}{section.2.10}%
+\contentsline {subsection}{\numberline {2.10.1}Prime Gaps}{37}{subsection.2.10.1}%
+\contentsline {subsection}{\numberline {2.10.2}Cryptography}{37}{subsection.2.10.2}%
+\contentsline {subsection}{\numberline {2.10.3}Computational Complexity}{38}{subsection.2.10.3}%
+\contentsline {subsection}{\numberline {2.10.4}Quantum Chaos and Random Matrices}{38}{subsection.2.10.4}%
+\contentsline {section}{\numberline {2.11}Further Reading}{39}{section.2.11}%
+\contentsline {chapter}{\numberline {3}P Versus NP}{41}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{41}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Models of Computation}{42}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Turing Machines}{42}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Non-Deterministic Turing Machines}{43}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}The Church--Turing Thesis}{43}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}The RAM Model}{43}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Why Turing Machines?}{44}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Time Complexity and Big-O Notation}{44}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}The Class P}{45}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Formal Definition}{45}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Examples of Problems in P}{45}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Polynomial vs.\ Exponential Time}{46}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}What ``Efficient'' Means}{46}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}The Class NP}{47}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}The Verifier Definition}{47}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Non-Deterministic Turing Machine Definition}{47}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Examples of Problems in NP}{48}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Relationship P $\subseteq $ NP}{48}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}NP-Completeness}{49}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Polynomial-Time Reductions}{49}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Definition of NP-Completeness}{49}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}The Cook--Levin Theorem}{50}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Karp's 21 NP-Complete Problems}{51}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Example Reductions}{52}{subsection.3.5.5}%
+\contentsline {section}{\numberline {3.6}The P vs NP Question}{52}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Why Most Experts Believe P $\neq $ NP}{53}{subsection.3.6.1}%
+\contentsline {section}{\numberline {3.7}Consequences of P = NP}{53}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Algorithms for All NP Problems}{53}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Automated Theorem Proving}{54}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Breaking Cryptography}{54}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Revolution in Optimization and Science}{54}{subsection.3.7.4}%
+\contentsline {section}{\numberline {3.8}Consequences of P $\neq $ NP}{55}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Hardness Assumptions Confirmed}{55}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Cryptographic Foundations}{55}{subsection.3.8.2}%
+\contentsline {subsection}{\numberline {3.8.3}Limits of Computation}{55}{subsection.3.8.3}%
+\contentsline {subsection}{\numberline {3.8.4}Approximation Algorithms and Hardness of Approximation}{55}{subsection.3.8.4}%
+\contentsline {subsection}{\numberline {3.8.5}Ladner's Theorem: NP-Intermediate Problems}{55}{subsection.3.8.5}%
+\contentsline {section}{\numberline {3.9}The Barrier Results}{56}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Relativization (Baker--Gill--Solovay, 1975)}{56}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Natural Proofs (Razborov--Rudich, 1997)}{56}{subsection.3.9.2}%
+\contentsline {subsection}{\numberline {3.9.3}Algebrization (Aaronson--Wigderson, 2009)}{57}{subsection.3.9.3}%
+\contentsline {subsection}{\numberline {3.9.4}Summary of Barriers}{57}{subsection.3.9.4}%
+\contentsline {section}{\numberline {3.10}Beyond P vs NP}{57}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}The Polynomial Hierarchy}{58}{subsection.3.10.1}%
+\contentsline {subsection}{\numberline {3.10.2}Counting: The Class $\#$P}{58}{subsection.3.10.2}%
+\contentsline {subsection}{\numberline {3.10.3}PSPACE}{58}{subsection.3.10.3}%
+\contentsline {subsection}{\numberline {3.10.4}BPP: Randomized Computation}{59}{subsection.3.10.4}%
+\contentsline {subsection}{\numberline {3.10.5}BQP: Quantum Computation}{59}{subsection.3.10.5}%
+\contentsline {subsection}{\numberline {3.10.6}Interactive Proofs and Zero-Knowledge}{59}{subsection.3.10.6}%
+\contentsline {subsection}{\numberline {3.10.7}The PCP Theorem and Approximability}{60}{subsection.3.10.7}%
+\contentsline {subsection}{\numberline {3.10.8}Circuit Complexity}{60}{subsection.3.10.8}%
+\contentsline {subsection}{\numberline {3.10.9}The Landscape of Complexity Classes}{60}{subsection.3.10.9}%
+\contentsline {section}{\numberline {3.11}Exercises}{61}{section.3.11}%
+\contentsline {section}{\numberline {3.12}Further Reading}{62}{section.3.12}%
+\contentsline {chapter}{\numberline {4}The Navier--Stokes Equations}{63}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{63}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Derivation of the Equations}{64}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}The Continuity Equation: Conservation of Mass}{64}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}The Momentum Equation: Newton's Second Law}{65}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}The Stress Tensor for Incompressible Newtonian Fluids}{66}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}The Full Navier--Stokes System}{66}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Boundary Conditions}{67}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Initial Conditions}{67}{subsection.4.2.6}%
+\contentsline {section}{\numberline {4.3}Physical Interpretation}{68}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}The Meaning of Each Term}{68}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}The Reynolds Number}{68}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Laminar versus Turbulent Flow}{69}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}What Is a Solution?}{70}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Classical Solutions}{70}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Function Spaces}{70}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Weak Solutions}{71}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Leray's Construction of Weak Solutions}{71}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}The Millennium Problem Statement}{72}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}The Case of $\mathbb {R}^3$}{72}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}The Case of $\mathbb {T}^3$}{72}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}What a Counterexample Would Look Like}{73}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Local Existence Theory}{73}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Mild Solutions and the Integral Equation}{73}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}The Picard Iteration Approach}{73}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}The Kato--Fujita Theorem}{74}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}The Maximal Time of Existence and the Blowup Criterion}{74}{subsection.4.6.4}%
+\contentsline {section}{\numberline {4.7}Regularity Criteria}{75}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}The Ladyzhenskaya--Prodi--Serrin Conditions}{75}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}The Caffarelli--Kohn--Nirenberg Theorem}{75}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}The $L^3$ Criterion in Detail}{76}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}Beale--Kato--Majda for the Euler Equations}{76}{subsection.4.7.4}%
+\contentsline {section}{\numberline {4.8}Vorticity and Vortex Stretching}{76}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Definition of Vorticity}{76}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}The Vorticity Equation}{76}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}The Vortex Stretching Term}{77}{subsection.4.8.3}%
+\contentsline {subsection}{\numberline {4.8.4}The Biot--Savart Law}{77}{subsection.4.8.4}%
+\contentsline {subsection}{\numberline {4.8.5}Why Three Dimensions Is Different from Two Dimensions}{77}{subsection.4.8.5}%
+\contentsline {subsection}{\numberline {4.8.6}Enstrophy}{77}{subsection.4.8.6}%
+\contentsline {subsection}{\numberline {4.8.7}The Beale--Kato--Majda Criterion}{78}{subsection.4.8.7}%
+\contentsline {section}{\numberline {4.9}Two Dimensions: The Complete Theory}{78}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Why Two Dimensions Is Easier}{78}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}Ladyzhenskaya's Theorem}{79}{subsection.4.9.2}%
+\contentsline {subsection}{\numberline {4.9.3}Comparison with Three Dimensions}{79}{subsection.4.9.3}%
+\contentsline {section}{\numberline {4.10}Progress and Partial Results}{79}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Tao's Averaged Blowup Result (2016)}{80}{subsection.4.10.1}%
+\contentsline {subsection}{\numberline {4.10.2}Non-Uniqueness of Weak Solutions}{80}{subsection.4.10.2}%
+\contentsline {subsection}{\numberline {4.10.3}Numerical Evidence}{80}{subsection.4.10.3}%
+\contentsline {subsection}{\numberline {4.10.4}The Current Status of the Clay Prize}{81}{subsection.4.10.4}%
+\contentsline {section}{\numberline {4.11}Exercises}{81}{section.4.11}%
+\contentsline {section}{\numberline {4.12}Further Reading}{83}{section.4.12}%
+\contentsline {chapter}{\numberline {5}Yang--Mills Theory and the Mass Gap}{85}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{85}{section.5.1}%
+\contentsline {section}{\numberline {5.2}A Brief History of Gauge Theory}{86}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Maxwell's Equations as a U(1) Gauge Theory}{86}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Weyl's Gauge Principle}{86}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}The Aharonov--Bohm Effect}{87}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Yang and Mills, 1954}{87}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Experimental Confirmation}{87}{subsection.5.2.5}%
+\contentsline {section}{\numberline {5.3}Classical Yang--Mills Theory}{88}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Lie Groups and Lie Algebras}{88}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Connections and Curvature}{89}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}The Yang--Mills Action}{91}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Gauge Transformations}{91}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Comparison with Maxwell's Theory}{92}{subsection.5.3.5}%
+\contentsline {section}{\numberline {5.4}Quantization}{93}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}The Path Integral Approach}{93}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Gauge Fixing and the Faddeev--Popov Procedure}{94}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Feynman Rules}{94}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Perturbative Renormalization}{95}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}The Mass Gap}{95}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}What Is Mass in Quantum Field Theory?}{95}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}The K\"{a}ll\'{e}n--Lehmann Representation}{95}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Confinement in QCD}{96}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}Lattice QCD and the Mass Gap}{97}{subsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.5.5}The Glueball Spectrum}{97}{subsection.5.5.5}%
+\contentsline {subsection}{\numberline {5.5.6}Experimental Evidence}{98}{subsection.5.5.6}%
+\contentsline {section}{\numberline {5.6}Mathematical Formulation}{98}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}The Wightman Axioms}{98}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}The Osterwalder--Schrader Axioms}{99}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Gauge Invariance Complications}{100}{subsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.6.4}The Clay Problem Statement}{100}{subsection.5.6.4}%
+\contentsline {subsection}{\numberline {5.6.5}What a Rigorous Construction Would Require}{100}{subsection.5.6.5}%
+\contentsline {section}{\numberline {5.7}What Has Been Achieved}{101}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Two-Dimensional Yang--Mills Theory}{101}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Three-Dimensional Yang--Mills Theory}{101}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}Lattice Gauge Theory}{102}{subsection.5.7.3}%
+\contentsline {subsection}{\numberline {5.7.4}Supersymmetric Yang--Mills Theory}{103}{subsection.5.7.4}%
+\contentsline {section}{\numberline {5.8}The Yang--Mills Millennium Problem in Context}{103}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Why It Is the Hardest Problem}{103}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}Connections to Other Millennium Problems}{104}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.3}What Progress Would Mean}{104}{subsection.5.8.3}%
+\contentsline {section}{\numberline {5.9}Exercises}{104}{section.5.9}%
+\contentsline {section}{\numberline {5.10}Further Reading}{106}{section.5.10}%
+\contentsline {chapter}{\numberline {6}The Hodge Conjecture}{109}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introduction}{109}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Complex Manifolds and Projective Space}{110}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Complex Projective Space}{110}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Holomorphic Functions and Complex Manifolds}{110}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}K\"{a}hler Metrics}{111}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Examples of Complex Manifolds}{111}{subsection.6.2.4}%
+\contentsline {section}{\numberline {6.3}Algebraic Varieties}{112}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Projective Algebraic Varieties}{112}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Smoothness and the Jacobian Criterion}{112}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Examples of Algebraic Varieties}{113}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}De Rham Cohomology}{114}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Differential Forms}{114}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Closed and Exact Forms}{114}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}The Mayer--Vietoris Sequence}{115}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4}Poincar\'{e} Duality}{115}{subsection.6.4.4}%
+\contentsline {section}{\numberline {6.5}Hodge Theory}{115}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Differential Forms on Complex Manifolds}{115}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}The Laplace--Beltrami Operator and Harmonic Forms}{116}{subsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.5.3}The Hodge Decomposition}{116}{subsection.6.5.3}%
+\contentsline {section}{\numberline {6.6}Algebraic Cycles and Their Cohomology Classes}{118}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Algebraic Cycles}{118}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}The Cycle Class Map}{119}{subsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.6.3}Intersection Theory}{119}{subsection.6.6.3}%
+\contentsline {subsection}{\numberline {6.6.4}Chern Classes and Divisors}{120}{subsection.6.6.4}%
+\contentsline {section}{\numberline {6.7}Statement of the Hodge Conjecture}{120}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Hodge Classes}{120}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}The Conjecture}{121}{subsection.6.7.2}%
+\contentsline {subsection}{\numberline {6.7.3}The Lefschetz $(1,1)$ Theorem}{121}{subsection.6.7.3}%
+\contentsline {subsection}{\numberline {6.7.4}Why $p = 1$ Is Solved and Higher $p$ Is Not}{122}{subsection.6.7.4}%
+\contentsline {subsection}{\numberline {6.7.5}Status for General $p$}{122}{subsection.6.7.5}%
+\contentsline {section}{\numberline {6.8}What Is Known}{123}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}The Lefschetz $(1,1)$ Theorem}{123}{subsection.6.8.1}%
+\contentsline {subsection}{\numberline {6.8.2}Curves and Surfaces}{123}{subsection.6.8.2}%
+\contentsline {subsection}{\numberline {6.8.3}Abelian Varieties}{123}{subsection.6.8.3}%
+\contentsline {subsection}{\numberline {6.8.4}K3 Surfaces}{124}{subsection.6.8.4}%
+\contentsline {subsection}{\numberline {6.8.5}The Integral Hodge Conjecture}{124}{subsection.6.8.5}%
+\contentsline {subsection}{\numberline {6.8.6}Further Partial Results}{124}{subsection.6.8.6}%
+\contentsline {subsection}{\numberline {6.8.7}The Relationship to Other Millennium Problems}{125}{subsection.6.8.7}%
+\contentsline {section}{\numberline {6.9}Exercises}{125}{section.6.9}%
+\contentsline {section}{\numberline {6.10}Further Reading}{126}{section.6.10}%
+\contentsline {chapter}{\numberline {7}The Birch and Swinnerton-Dyer Conjecture}{127}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introduction}{127}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Elliptic Curves: Definitions and Examples}{128}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Weierstrass Equations}{128}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}The General Weierstrass Equation}{129}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Smoothness and the Point at Infinity}{129}{subsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.2.4}Real Points and Visualization}{129}{subsection.7.2.4}%
+\contentsline {subsection}{\numberline {7.2.5}Examples over Finite Fields}{130}{subsection.7.2.5}%
+\contentsline {section}{\numberline {7.3}The Group Law}{130}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}The Chord-Tangent Construction}{130}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Algebraic Formulas for Addition}{131}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Associativity via Divisors}{132}{subsection.7.3.3}%
+\contentsline {subsection}{\numberline {7.3.4}Torsion Points}{132}{subsection.7.3.4}%
+\contentsline {section}{\numberline {7.4}The Mordell--Weil Theorem}{133}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Statement of the Theorem}{133}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}The Height Function}{133}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}Descent and the Weak Mordell--Weil Theorem}{134}{subsection.7.4.3}%
+\contentsline {subsection}{\numberline {7.4.4}Computing the Rank}{134}{subsection.7.4.4}%
+\contentsline {section}{\numberline {7.5}Reduction Modulo $p$}{135}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Good and Bad Reduction}{135}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}Counting Points Modulo $p$}{135}{subsection.7.5.2}%
+\contentsline {subsection}{\numberline {7.5.3}Hasse's Theorem}{136}{subsection.7.5.3}%
+\contentsline {section}{\numberline {7.6}The $L$-Function of an Elliptic Curve}{137}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}Definition via Euler Product}{137}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}Convergence and Analytic Properties}{137}{subsection.7.6.2}%
+\contentsline {subsection}{\numberline {7.6.3}The Modularity Theorem}{137}{subsection.7.6.3}%
+\contentsline {subsection}{\numberline {7.6.4}The Functional Equation}{138}{subsection.7.6.4}%
+\contentsline {section}{\numberline {7.7}The BSD Conjecture}{138}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}The Weak BSD Conjecture}{138}{subsection.7.7.1}%
+\contentsline {subsection}{\numberline {7.7.2}The Full BSD Conjecture}{139}{subsection.7.7.2}%
+\contentsline {subsection}{\numberline {7.7.3}The Period $\Omega _E$}{139}{subsection.7.7.3}%
+\contentsline {subsection}{\numberline {7.7.4}The Regulator $\operatorname {Reg}(E)$}{140}{subsection.7.7.4}%
+\contentsline {subsection}{\numberline {7.7.5}Tamagawa Numbers $c_p$}{140}{subsection.7.7.5}%
+\contentsline {subsection}{\numberline {7.7.6}The Tate--Shafarevich Group $\ShaSymbol $}{140}{subsection.7.7.6}%
+\contentsline {subsection}{\numberline {7.7.7}The Torsion Subgroup}{141}{subsection.7.7.7}%
+\contentsline {subsection}{\numberline {7.7.8}The Original Birch--Swinnerton-Dyer Experiments}{141}{subsection.7.7.8}%
+\contentsline {section}{\numberline {7.8}Evidence and Partial Results}{142}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}The Coates--Wiles Theorem}{142}{subsection.7.8.1}%
+\contentsline {subsection}{\numberline {7.8.2}The Gross--Zagier Theorem}{142}{subsection.7.8.2}%
+\contentsline {subsection}{\numberline {7.8.3}Kolyvagin's Euler Systems}{142}{subsection.7.8.3}%
+\contentsline {subsection}{\numberline {7.8.4}The Parity Conjecture}{143}{subsection.7.8.4}%
+\contentsline {subsection}{\numberline {7.8.5}Average Results: Bhargava--Shankar}{143}{subsection.7.8.5}%
+\contentsline {subsection}{\numberline {7.8.6}Numerical Verification}{143}{subsection.7.8.6}%
+\contentsline {subsection}{\numberline {7.8.7}Computational Challenges for Higher Rank}{144}{subsection.7.8.7}%
+\contentsline {subsection}{\numberline {7.8.8}Other Supporting Results}{144}{subsection.7.8.8}%
+\contentsline {section}{\numberline {7.9}Exercises}{144}{section.7.9}%
+\contentsline {section}{\numberline {7.10}Further Reading}{145}{section.7.10}%
+\contentsline {chapter}{\numberline {A}Mathematical Preliminaries}{147}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Basic Set Theory and Notation}{147}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Linear Algebra}{147}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Abstract Algebra}{147}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Topology}{148}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Analysis}{148}{section.A.5}%
+\contentsline {section}{\numberline {A.6}Complex Analysis}{148}{section.A.6}%
+\contentsline {section}{\numberline {A.7}Algebraic Geometry}{149}{section.A.7}%
+\contentsline {chapter}{\numberline {B}Notation Index}{151}{appendix.B}%
+\contentsline {section}{\numberline {B.1}General Notation}{151}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Topology and Geometry}{151}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Complex Analysis}{152}{section.B.3}%
+\contentsline {section}{\numberline {B.4}Number Theory}{152}{section.B.4}%
+\contentsline {section}{\numberline {B.5}Algebra}{153}{section.B.5}%
+\contentsline {section}{\numberline {B.6}Gauge Theory and Physics}{153}{section.B.6}%
+\contentsline {section}{\numberline {B.7}Computational Complexity}{154}{section.B.7}%
+\contentsline {section}{\numberline {B.8}Elliptic Curves: Detailed Notation}{154}{section.B.8}%
+\contentsline {chapter}{\numberline {C}Biographical Sketches}{155}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Glossary of Terms}{159}{appendix.D}%
+\contentsline {chapter}{\numberline {E}Exercises and Problems}{161}{appendix.E}%
+\contentsline {section}{\numberline {E.1}Review Exercises by Chapter}{161}{section.E.1}%
+\contentsline {subsection}{\numberline {E.1.1}Chapter~1: The Poincar\'{e} Conjecture}{161}{subsection.E.1.1}%
+\contentsline {subsection}{\numberline {E.1.2}Chapter~2: The Riemann Hypothesis}{161}{subsection.E.1.2}%
+\contentsline {subsection}{\numberline {E.1.3}Chapter~3: P vs NP}{162}{subsection.E.1.3}%
+\contentsline {subsection}{\numberline {E.1.4}Chapter~4: Navier--Stokes Equations}{162}{subsection.E.1.4}%
+\contentsline {subsection}{\numberline {E.1.5}Chapter~5: Yang--Mills Theory}{162}{subsection.E.1.5}%
+\contentsline {subsection}{\numberline {E.1.6}Chapter~6: The Hodge Conjecture}{163}{subsection.E.1.6}%
+\contentsline {subsection}{\numberline {E.1.7}Chapter~7: Birch and Swinnerton-Dyer Conjecture}{163}{subsection.E.1.7}%
+\contentsline {section}{\numberline {E.2}Advanced Problems}{163}{section.E.2}%
+\contentsline {subsection}{\numberline {E.2.1}Chapter~1: The Poincar\'{e} Conjecture}{163}{subsection.E.2.1}%
+\contentsline {subsection}{\numberline {E.2.2}Chapter~2: The Riemann Hypothesis}{163}{subsection.E.2.2}%
+\contentsline {subsection}{\numberline {E.2.3}Chapter~3: P vs NP}{164}{subsection.E.2.3}%
+\contentsline {subsection}{\numberline {E.2.4}Chapter~4: Navier--Stokes Equations}{164}{subsection.E.2.4}%
+\contentsline {subsection}{\numberline {E.2.5}Chapter~5: Yang--Mills Theory}{164}{subsection.E.2.5}%
+\contentsline {subsection}{\numberline {E.2.6}Chapter~6: The Hodge Conjecture}{164}{subsection.E.2.6}%
+\contentsline {subsection}{\numberline {E.2.7}Chapter~7: Birch and Swinnerton-Dyer Conjecture}{164}{subsection.E.2.7}%
+\contentsline {section}{\numberline {E.3}Hints and Solutions}{165}{section.E.3}%
+\contentsline {subsection}{\numberline {E.3.1}Review Exercise Hints}{165}{subsection.E.3.1}%
+\contentsline {subsection}{\numberline {E.3.2}Advanced Problem Hints}{165}{subsection.E.3.2}%
+\contentsline {subsection}{\numberline {E.3.3}Selected Full Solutions}{166}{subsection.E.3.3}%
+\contentsline {chapter}{Epilogue}{169}{appendix*.22}%

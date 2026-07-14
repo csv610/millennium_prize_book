@@ -1,0 +1,305 @@
+\chapter{Exercises and Problems}
+\label{ch:appendix-problems}
+
+This appendix provides a systematic collection of exercises and problems organized by chapter. Section~A contains review exercises designed to test comprehension of the core material. Section~B presents advanced problems that require deeper engagement with the theory. Hints and solutions are provided in a separate section below.
+
+%============================================================
+\section{Review Exercises by Chapter}
+\label{sec:review-exercises}
+
+%------------------------------------------------------------
+\subsection{Chapter~1: The Poincar\'{e} Conjecture}
+
+\begin{enumerate}[label=\textbf{1.\arabic*.},leftmargin=2.5em]
+\item Show that the fundamental group $\pi_1(S^1) \cong \mathbb{Z}$ by constructing an explicit isomorphism from the group of homotopy classes of loops on the circle to the integers.
+
+\item Compute $\pi_1(S^n)$ for $n \geq 2$ and explain why $S^2$ is simply connected while $S^1$ is not.
+
+\item Prove that a compact, connected 2-manifold without boundary is homeomorphic to either $S^2$ or a connected sum of tori $T^2 \# \cdots \# T^2$.
+
+\item Define the Euler characteristic $\chi(M)$ of a compact surface $M$ using a triangulation. Verify that $\chi(S^2) = 2$ and $\chi(T^2) = 0$.
+
+\item Explain why every compact 3-manifold can be decomposed into handles. State the classification theorem for compact 3-manifolds without boundary.
+\end{enumerate}
+
+%------------------------------------------------------------
+\subsection{Chapter~2: The Riemann Hypothesis}
+
+\begin{enumerate}[label=\textbf{2.\arabic*.},leftmargin=2.5em]
+\item Prove that the Riemann zeta function $\zeta(s)$ admits the Euler product formula
+\[
+\zeta(s) = \prod_{p \text{ prime}} \frac{1}{1 - p^{-s}}, \qquad \mathbb{R}e(s) > 1.
+\]
+
+\item Show that $\zeta(s)$ has a simple pole at $s = 1$ with residue $1$ by relating it to the harmonic series.
+
+\item Verify that $\zeta(-1) = -\tfrac{1}{12}$ using the functional equation and the known value $\zeta(2) = \tfrac{\pi^2}{6}$.
+
+\item Prove that $\zeta(s) \neq 0$ for all $s$ with $\mathbb{R}e(s) = 1$ and $s \neq 1$. State the implication for the prime number theorem.
+
+\item Show that the number of zeros of $\zeta(s)$ in the critical strip with imaginary part between $0$ and $T$ is asymptotic to $\frac{T}{2\pi} \log \frac{T}{2\pi e}$.
+\end{enumerate}
+
+%------------------------------------------------------------
+\subsection{Chapter~3: P vs NP}
+
+\begin{enumerate}[label=\textbf{3.\arabic*.},leftmargin=2.5em]
+\item Show that the SAT problem is NP-complete by reducing 3-SAT to SAT and proving that SAT is in NP.
+
+\item Prove that if P $=$ NP, then every language in NP that has a polynomial-time verifier also has a polynomial-time decider.
+
+\item Define the complexity classes P, NP, and PSPACE. Prove that $\text{P} \subseteq \text{NP} \subseteq \text{PSPACE}$.
+
+\item Show that the clique problem is NP-complete by reducing 3-SAT to clique. State the reduction precisely and prove correctness.
+
+\item Explain why the problem of factoring integers is believed to be outside P, and describe its relationship to the class NP $\cap$ coNP.
+\end{enumerate}
+
+%------------------------------------------------------------
+\subsection{Chapter~4: Navier--Stokes Equations}
+
+\begin{enumerate}[label=\textbf{4.\arabic*.},leftmargin=2.5em]
+\item Derive the incompressible Navier--Stokes equations from the compressible Euler equations by taking the incompressibility limit $\rho = \text{const}$.
+
+\item Show that the Burgers equation $\frac{\partial}{\partial t} u + u\, \frac{\partial}{\partial x} u = 0$ develops shocks in finite time by the method of characteristics. Give an explicit example.
+
+\item Prove that any smooth solution of the 3D Navier--Stokes equations satisfies the energy inequality
+\[
+\frac{d}{dt} \frac{1}{2} \int_{\mathbb{R}^3} |u|^2 \, dx + \nu \int_{\mathbb{R}^3} |\nabla u|^2 \, dx \leq 0.
+\]
+
+\item Define the vorticity $\omega = \nabla \times u$. Show that $\omega$ satisfies the vorticity equation and explain the physical meaning of vortex stretching in 3D.
+
+\item Construct an explicit smooth solution to the 2D Navier--Stokes equations and explain why the 2D problem is qualitatively different from the 3D problem.
+\end{enumerate}
+
+%------------------------------------------------------------
+\subsection{Chapter~5: Yang--Mills Theory}
+
+\begin{enumerate}[label=\textbf{5.\arabic*.},leftmargin=2.5em]
+\item Define a principal $G$-bundle $P \to M$ and explain the role of the gauge group. Give the example of the trivial bundle and the Hopf bundle $S^3 \to S^2$.
+
+\item Show that the curvature $F$ of a connection on a principal bundle transforms under gauge transformations as $F \mapsto g F g^{-1}$ for $g \in \mathcal{G}$.
+
+\item Prove that the Yang--Mills action
+\[
+S_{\text{YM}} = -\frac{1}{4} \int_M \tr(F \wedge *F)
+\]
+is invariant under gauge transformations.
+
+\item Explain the mass gap problem. Why is the existence of a mass gap for pure Yang--Mills theory not yet rigorously established in 4D?
+
+\item Compute the Euler--Lagrange equations for the Yang--Mills action and show they reduce to the Yang--Mills equations $d_A *F = 0$.
+\end{enumerate}
+
+%------------------------------------------------------------
+\subsection{Chapter~6: The Hodge Conjecture}
+
+\begin{enumerate}[label=\textbf{6.\arabic*.},leftmargin=2.5em]
+\item Define a Hodge structure on a complex manifold $X$ of dimension $n$. State the Hodge decomposition theorem for K\"{a}hler manifolds.
+
+\item Explain what it means for a cohomology class $[\omega] \in H^{2k}(X, \mathbb{Q})$ to be Hodge. Give an example of a Hodge class on an abelian surface.
+
+\item Prove that every class in $H^{2}(X, \mathbb{Q})$ of a smooth projective surface is Hodge (i.e., the Hodge conjecture holds for codimension 1).
+
+\item Define the Lefschetz $(1,1)$-theorem and explain its relationship to the Hodge conjecture.
+
+\item Show that the Hodge conjecture for $X = \text{Pic}^0(A)$ where $A$ is an abelian variety is related to the Tate conjecture.
+\end{enumerate}
+
+%------------------------------------------------------------
+\subsection{Chapter~7: Birch and Swinnerton-Dyer Conjecture}
+
+\begin{enumerate}[label=\textbf{7.\arabic*.},leftmargin=2.5em]
+\item Define the Hasse--Weil $L$-function $L(E, s)$ of an elliptic curve $E/\mathbb{Q}$. State the functional equation relating $L(E, s)$ to $L(E, 2-s)$.
+
+\item Explain the Mordell--Weil theorem: why is $E(\mathbb{Q})$ a finitely generated abelian group? What is the role of the torsion subgroup?
+
+\item Compute the rank of $E: y^2 = x^3 - x$ over $\mathbb{Q}$ using descent via 2-isogeny.
+
+\item State the BSD conjecture precisely for an elliptic curve $E/\mathbb{Q}$ with analytic rank $r$. What does it predict about $\text{ord}_{s=1} L(E, s)$?
+
+\item Show that the BSD conjecture is known for analytic rank $\leq 1$ (the Gross--Zagier and Kolyvagin results). What are the key ingredients of these proofs?
+\end{enumerate}
+
+%============================================================
+\section{Advanced Problems}
+\label{sec:advanced-problems}
+
+%------------------------------------------------------------
+\subsection{Chapter~1: The Poincar\'{e} Conjecture}
+
+\begin{enumerate}[label=\textbf{A1.\arabic*.},leftmargin=2.5em]
+\item \textbf{The Perelman--Hamilton Program.}
+Describe the key steps of the Ricci flow program for proving the Poincar\'{e} conjecture: (a) short-time existence and uniqueness of the Ricci flow, (b) formation and resolution of singularities via surgery, (c) the use of $\mathcal{W}$-entropy to show convergence, and (d) Perelman's no-local-collapsing theorem. Explain how these pieces combine to give the full proof.
+
+\item \textbf{Three-manifold topology.}
+Prove that the connected sum $S^2 \times S^1 \# M$ is never a counterexample to the Poincar\'{e} conjecture. More precisely, show that any 3-manifold with fundamental group $\mathbb{Z}$ is homeomorphic to $S^2 \times S^1$ (not $S^3$). How does this relate to the statement of the Poincar\'{e} conjecture?
+\end{enumerate}
+
+%------------------------------------------------------------
+\subsection{Chapter~2: The Riemann Hypothesis}
+
+\begin{enumerate}[label=\textbf{A2.\arabic*.},leftmargin=2.5em]
+\item \textbf{The Weil explicit formula.}
+State the Weil explicit formula relating sums over zeros of $\zeta(s)$ to sums over primes. Use it to derive a zero-density estimate of the form
+\[
+N(\sigma, T) \ll T^{c(1-\sigma)}
+\]
+for some constant $c > 0$, where $N(\sigma, T)$ counts zeros with $\mathbb{R}e(s) \geq \sigma$ and $|\Im(s)| \leq T$. What value of $c$ is known unconditionally?
+
+\item \textbf{Random matrix models.}
+Explain the Montgomery--Odlyzko law: the pair correlation of zeros of $\zeta(s)$ on the critical line agrees, in the limit, with the pair correlation eigenvalues of large random matrices from the GUE ensemble. What heuristic does this provide for the distribution of zeros?
+\end{enumerate}
+
+%------------------------------------------------------------
+\subsection{Chapter~3: P vs NP}
+
+\begin{enumerate}[label=\textbf{A3.\arabic*.},leftmargin=2.5em]
+\item \textbf{Circuit complexity lower bounds.}
+Prove that the function $\text{PARITY}$ requires exponential-size Boolean circuits. Use this to explain why the $P$ vs $NP$ problem cannot be resolved by simple diagonalization. How does the Aaronson--Wigderson ``algebrization'' barrier extend this argument?
+
+\item \textbf{NP-completeness of constraint satisfaction.}
+Prove the Schaefer dichotomy theorem: every 0--1 constraint satisfaction problem is either in P or NP-complete. Characterize exactly which constraint languages yield problems in P.
+\end{enumerate}
+
+%------------------------------------------------------------
+\subsection{Chapter~4: Navier--Stokes Equations}
+
+\begin{enumerate}[label=\textbf{A4.\arabic*.},leftmargin=2.5em]
+\item \textbf{Partial regularity.}
+State the Caffarelli--Kohn--Nirenberg partial regularity theorem for weak solutions of the 3D Navier--Stokes equations. Explain why it implies that singularities (if they exist) must form a set of one-dimensional Hausdorff measure zero.
+
+\item \textbf{Leray--Hopf weak solutions.}
+Define a Leray--Hopf weak solution to the 3D Navier--Stokes equations. Prove the energy inequality and uniqueness of weak solutions in 2D. Explain why uniqueness is unknown in 3D.
+\end{enumerate}
+
+%------------------------------------------------------------
+\subsection{Chapter~5: Yang--Mills Theory}
+
+\begin{enumerate}[label=\textbf{A5.\arabic*.},leftmargin=2.5em]
+\item \textbf{Instantons on $\mathbb{R}^4$.}
+Construct the BPST instanton on $\mathbb{R}^4 \setminus \{0\}$ for the gauge group SU(2). Compute its action and show it is finite. Explain why instantons are relevant to the mass gap problem.
+
+\item \textbf{Lattice Yang--Mills theory.}
+Define the Wilson action for lattice gauge theory on a $d$-dimensional lattice. Explain how the mass gap manifests on the lattice and describe the logical steps needed to take the continuum limit and prove the mass gap conjecture rigorously.
+\end{enumerate}
+
+%------------------------------------------------------------
+\subsection{Chapter~6: The Hodge Conjecture}
+
+\begin{enumerate}[label=\textbf{A6.\arabic*.},leftmargin=2.5em]
+\item \textbf{Hodge structures and transcendence.}
+Let $X$ be a smooth projective variety over $\mathbb{C}$ of dimension $n$. Explain the relationship between the Hodge conjecture and the algebraic cycle class map $\cl: \text{CH}^k(X)_{\mathbb{Q}} \to H^{2k}(X, \mathbb{Q})$. Show that the Hodge conjecture for $X$ is equivalent to the surjectivity of $\cl \otimes \mathbb{Q}$ onto the subspace of Hodge classes $H^{2k}(X, \mathbb{Q}) \cap H^{k,k}(X)$.
+
+\item \textbf{Counterexamples and special cases.}
+Describe the known cases of the Hodge conjecture: (a) codimension 1 by the Lefschetz $(1,1)$-theorem, (b) abelian varieties of dimension $\leq 3$ by the work of Lieberman and others, and (c) certain Fermat varieties. For each case, briefly indicate the proof strategy.
+\end{enumerate}
+
+%------------------------------------------------------------
+\subsection{Chapter~7: Birch and Swinnerton-Dyer Conjecture}
+
+\begin{enumerate}[label=\textbf{A7.\arabic*.},leftmargin=2.5em]
+\item \textbf{The Tate--Shafarevich group.}
+Define the Tate--Shafarevich group $\Sha(E/\mathbb{Q})$ of an elliptic curve. Explain its role in the BSD conjecture and describe what is known about its structure. Why is the finiteness of $\Sha$ a major open problem?
+
+\item \textbf{Gross--Zagier and Kolyvagin.}
+State the Gross--Zagier formula relating the height of a Heegner point to the derivative $L'(E, 1)$. Combine this with Kolyvagin's Euler system argument to prove the BSD conjecture for analytic rank $\leq 1$. What are the main technical ingredients?
+\end{enumerate}
+
+%============================================================
+\section{Hints and Solutions}
+\label{sec:hints}
+
+\textbf{Important:} Try each exercise on your own before consulting hints or solutions. The hints are designed to point you in the right direction without giving away the full argument. Solutions are provided for selected exercises only, to give you a model for writing your own proofs.
+
+%------------------------------------------------------------
+\subsection{Review Exercise Hints}
+
+\medskip\noindent\textbf{Exercise 1.1.} \textit{Hint.} Use the covering map $\mathbb{R} \to S^1$ given by $t \mapsto e^{2\pi i t}$. A loop $\gamma$ lifts to a path $\tilde{\gamma}$ in $\mathbb{R}$; the winding number $\tilde{\gamma}(1) - \tilde{\gamma}(0)$ gives the isomorphism to $\mathbb{Z}$.
+
+\medskip\noindent\textbf{Exercise 1.2.} \textit{Hint.} Use the fact that $S^n$ is $(n-1)$-connected. Any map $S^1 \to S^n$ for $n \geq 2$ extends to a disk $D^2 \to S^n$ since $\pi_1(S^n) = 0$ for $n \geq 2$.
+
+\medskip\noindent\textbf{Exercise 2.1.} \textit{Proof sketch.} For $\mathbb{R}e(s) > 1$, both sides converge absolutely. Use the unique factorization of integers: every $n \geq 2$ factors uniquely as $p_1^{a_1} \cdots p_k^{a_k}$. Expanding $\sum n^{-s}$ and reorganizing by prime factorization gives the Euler product. Rigorously, take logarithms and use the fact that $\sum_p \sum_{m \geq 1} p^{-ms}/m$ converges absolutely for $\mathbb{R}e(s) > 1$.
+
+\medskip\noindent\textbf{Exercise 2.2.} \textit{Hint.} Compare $\zeta(s)$ to $\int_1^\infty x^{-s} dx = \frac{1}{s-1}$ near $s=1$. More precisely, $\zeta(s) - \frac{1}{s-1}$ extends to a holomorphic function near $s=1$, so the pole is simple with residue $1$.
+
+\medskip\noindent\textbf{Exercise 3.1.} \textit{Hint.} First verify that SAT is in NP: given an assignment, check in polynomial time whether it satisfies the formula. For NP-hardness, reduce 3-SAT to SAT: every 3-CNF formula is already a SAT instance. The key is to show SAT is NP-hard by reducing from 3-SAT (already in NP) and showing all NP problems reduce to SAT via Cook's theorem.
+
+\medskip\noindent\textbf{Exercise 4.3.} \textit{Proof sketch.} Multiply the Navier--Stokes equation by $u$ and integrate over $\mathbb{R}^3$. Use integration by parts (or the divergence theorem) and the incompressibility condition $\nabla \cdot u = 0$ to move the Laplacian onto $u$. The term $\int u \cdot (u \cdot \nabla) u \, dx = 0$ by the product rule and incompressibility. The remaining terms give the stated inequality.
+
+\medskip\noindent\textbf{Exercise 5.3.} \textit{Hint.} A gauge transformation $g: M \to G$ acts on the connection $A$ as $A \mapsto gAg^{-1} + g\, dg^{-1}$. The curvature transforms as $F \mapsto gFg^{-1}$. Since $\tr(gFg^{-1} \wedge *(gFg^{-1})) = \tr(F \wedge *F)$ by cyclicity of trace and $*(gFg^{-1}) = g*Fg^{-1}$, the action is invariant.
+
+\medskip\noindent\textbf{Exercise 7.3.} \textit{Sketch.} The curve $E: y^2 = x^3 - x$ has the 2-isogeny $(x,y) \mapsto (x + 1/x, y(x-1/x)/x^2)$. The 2-descent proceeds by computing the Selmer group of this isogeny. One shows $|E(\mathbb{Q})/2E(\mathbb{Q})| = 4$, giving rank $r = 0$ (since $|E(\mathbb{Q})/2E(\mathbb{Q})| = 2^r \cdot |T/2T|$ where $T \cong \mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$ is the torsion subgroup).
+
+%------------------------------------------------------------
+\subsection{Advanced Problem Hints}
+
+\medskip\noindent\textbf{Problem A1.1.} \textit{Outline.}
+\begin{enumerate}
+\item[(a)] The Ricci flow $\frac{\partial}{\partial t} g_{ij} = -2R_{ij}$ has short-time existence by the DeTurck trick reducing to a parabolic system. Hamilton's 1982 paper gives uniqueness.
+\item[(b)] Singularities form at finite time. Perelman showed that near a singularity, the manifold looks (after rescaling) like a shrinking gradient soliton. Surgery replaces singular regions with standard caps.
+\item[(c)] Perelman's $\mathcal{W}$-entropy is non-decreasing along the flow and serves as a Lyapunov function, preventing the flow from developing infinitely many surgeries.
+\item[(d)] The no-local-collapsing theorem ensures that regions of high curvature cannot be too ``thin,'' enabling the surgery procedure.
+\end{enumerate}
+
+\medskip\noindent\textbf{Problem A2.1.} \textit{Sketch.} The Weil explicit formula states
+\[
+\sum_\rho h(\rho) = h(0) + h(1) - \sum_p \sum_{m=1}^\infty \frac{\log p}{p^{m/2}} (g(\log p^m) + g(-\log p^m))
+\]
+where $\rho$ runs over non-trivial zeros of $\zeta(s)$ and $h$ is a test function. Choosing $h$ supported near $\sigma = 1$ gives the zero-density estimate. The best unconditional exponent is $c = \frac{6}{7}$ (Huxley).
+
+\medskip\noindent\textbf{Problem A3.1.} \textit{Sketch.} The result follows from the fact that PARITY requires $\Omega(2^n / n)$ gates (Razborov--Smolensky for AC$^0$, extended to general circuits). For the barriers: algebrization extends the oracle separation technique using algebraic extensions of oracles; Aaronson and Wigderson showed that P vs NP cannot be resolved by algebraization alone, which covers all known proof techniques.
+
+\medskip\noindent\textbf{Problem A4.1.} \textit{Sketch.} The CKN theorem states that the singular set of a Leray--Hopf solution (points where $\nabla u$ is not locally bounded in $L^3$) has one-dimensional parabolic Hausdorff measure zero. The proof uses a Calder\'{o}n--Zygmund-type decomposition and a backward uniqueness argument for the heat equation.
+
+\medskip\noindent\textbf{Problem A5.1.} \textit{Sketch.} The BPST instanton is the connection $A = \frac{r^2}{r^2 + \lambda^2} g^{-1} dg$ on $S^3 \subset \mathbb{R}^4 \setminus \{0\}$ for SU(2), extended trivially in the radial direction. The action is $S = \frac{8\pi^2}{g^2}$ (finite), and the curvature is self-dual: $*F = F$. Instantons contribute to the path integral and their presence is tied to the topological vacuum structure of QCD, which is relevant to the mass gap.
+
+\medskip\noindent\textbf{Problem A7.1.} \textit{Sketch.} The Tate--Shafarevich group $\Sha(E/\mathbb{Q})$ fits into the exact sequence
+\[
+0 \to E(\mathbb{Q}) \otimes \mathbb{Q}/\mathbb{Z} \to \prod_v H^1(\mathbb{Q}_v, E) \to \Sha(E/\mathbb{Q}) \to \text{Sel}(E/\mathbb{Q}) \to 0
+\]
+in the Cassels--Tate pairing framework. Finiteness of $\Sha$ would imply the weak BSD conjecture (rank formula without the leading constant). No example of infinite $\Sha$ is known, but no proof of finiteness exists in general.
+
+%------------------------------------------------------------
+\subsection{Selected Full Solutions}
+
+\begin{solution}
+\textbf{Solution to Exercise 2.3.}
+We compute $\zeta(-1)$ using the functional equation
+\[
+\zeta(s) = 2^s \pi^{s-1} \sin\!\left(\frac{\pi s}{2}\right) \Gamma(1-s) \zeta(1-s).
+\]
+Set $s = -1$:
+\[
+\zeta(-1) = 2^{-1} \pi^{-2} \sin\!\left(-\frac{\pi}{2}\right) \Gamma(2) \zeta(2) = \frac{1}{2\pi^2} \cdot (-1) \cdot 1 \cdot \frac{\pi^2}{6} = -\frac{1}{12}.
+\]
+Thus $\zeta(-1) = -\tfrac{1}{12}$, famously used in string theory and regularization.
+\end{solution}
+
+\begin{solution}
+\textbf{Solution to Exercise 3.2.}
+Assume P $=$ NP. Then every NP language $L$ has a polynomial-time decider $D_L$. We must show this decider also serves as a verifier. For any $L \in \text{NP}$, there is a polynomial-time relation $R_L$ such that $x \in L \iff \exists y,\ |y| \leq p(|x|),\ R_L(x,y)$. Since P $=$ NP, the problem of finding $y$ (an NP search problem) is in P. So given $x$, we can compute a witness $y$ in polynomial time and check $R_L(x,y)$. Hence $D_L$ can be replaced by a polynomial-time algorithm that (1) finds $y$ and (2) verifies $R_L(x,y)$.
+\end{solution}
+
+\begin{solution}
+\textbf{Solution to Exercise 5.1.}
+A principal $G$-bundle $P \xrightarrow{\pi} M$ consists of a total space $P$, a base $M$, and a free right $G$-action on $P$ such that the orbit space $P/G = M$. Local trivializations are maps $\phi: \pi^{-1}(U) \xrightarrow{\sim} U \times G$ intertwining the $G$-action. The gauge group is $\mathcal{G} = \Gamma(M, P \times_G G)$, the group of equivariant bundle automorphisms covering the identity on $M$.
+
+For the trivial bundle $M \times G$, a connection is a Lie algebra-valued 1-form $A$ on $M$, and gauge transformations act as $A \mapsto gAg^{-1} + g\, dg^{-1}$.
+
+The Hopf bundle $S^3 \to S^2$ with fiber $S^1 \cong \text{U}(1)$ is the prototypical non-trivial bundle: $S^3$ is the unit sphere in $\mathbb{C}^2$, and the $S^1$-action is $(z_1, z_2) \cdot e^{i\theta} = (e^{i\theta} z_1, e^{i\theta} z_2)$. The quotient is $\mathbb{C}\text{P}^1 \cong S^2$.
+\end{solution}
+
+\begin{solution}
+\textbf{Solution to Exercise 6.1.}
+A Hodge structure of weight $k$ on a real vector space $V$ is a decomposition
+\[
+V_\mathbb{C} = \bigoplus_{p+q=k} V^{p,q}
+\]
+with $V^{q,p} = \overline{V^{p,q}}$. On a K\"{a}hler manifold $X$ of complex dimension $n$, the Hodge decomposition theorem gives
+\[
+H^k(X, \mathbb{C}) = \bigoplus_{p+q=k} H^{p,q}(X)
+\]
+where $H^{p,q}(X)$ is the space of harmonic $(p,q)$-forms. The Hodge numbers $h^{p,q} = \dim H^{p,q}(X)$ satisfy $h^{p,q} = h^{q,p}$ (Hodge symmetry) and $h^{p,q} = h^{n-p,n-q}$ (Serre duality).
+\end{solution}

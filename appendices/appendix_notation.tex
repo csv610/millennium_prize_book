@@ -1,0 +1,148 @@
+\chapter{Notation Index}
+\label{app:notation}
+
+This appendix lists the principal symbols and notation used throughout the book, organized by subject area.
+
+\section{General Notation}
+
+\begin{description}
+  \item[$\mathbb{N}$] The natural numbers $\{1, 2, 3, \ldots\}$.
+  \item[$\mathbb{Z}$] The integers.
+  \item[$\mathbb{Q}$] The rational numbers.
+  \item[$\mathbb{R}$] The real numbers.
+  \item[$\mathbb{C}$] The complex numbers.
+  \item[$\mathbb{F}_p$] The finite field with $p$ elements, where $p$ is prime.
+  \item[$\gcd(m,n)$] The greatest common divisor of $m$ and $n$.
+  \item[$\lfloor x \rfloor$] The floor function: the greatest integer $\leq x$.
+  \item[$O(f(n))$] Big-O notation: bounded above by a constant multiple of $f(n)$ for large $n$.
+  \item[$\Omega(f(n))$] Big-Omega notation: bounded below by a constant multiple of $f(n)$ for large $n$.
+  \item[$\Theta(f(n))$] Big-Theta notation: bounded above and below by constant multiples of $f(n)$.
+  \item[$\binom{n}{k}$] The binomial coefficient $\frac{n!}{k!(n-k)!}$.
+  \item[$\log$] The natural logarithm (base $e$), unless otherwise specified.
+  \item[$\sum$, $\prod$] Summation and product notation.
+  \item[$\approx$] Approximately equal.
+  \item[$\equiv$] Congruence (mod $n$), or equivalence.
+\end{description}
+
+\section{Topology and Geometry}
+
+\begin{description}
+  \item[$M$] A manifold, unless otherwise specified.
+  \item[$TM$] The tangent bundle of $M$.
+  \item[$T_pM$] The tangent space to $M$ at the point $p$.
+  \item[$g_{ij}$] Components of a Riemannian metric tensor.
+  \item[$R_{ij}$] Components of the Ricci curvature tensor.
+  \item[$R^i{}_{jkl}$] Components of the Riemann curvature tensor.
+  \item[$\nabla$] The covariant derivative (Levi-Civita connection).
+  \item[$\Delta$] The Laplace--Beltrami operator on a Riemannian manifold.
+  \item[$dV$] The volume form on a Riemannian manifold.
+  \item[$\pi_1(X,x_0)$] The fundamental group of $X$ based at $x_0$.
+  \item[$H_n(X)$] The $n$-th singular homology group of $X$.
+  \item[$H^n(X)$] The $n$-th singular cohomology group of $X$.
+  \item[$H^k_{\mathrm{dR}}(X)$] The $k$-th de Rham cohomology group of $X$.
+  \item[$\chi(X)$] The Euler characteristic of $X$.
+  \item[$b_k$] The $k$-th Betti number: $b_k = \dim H_k(X)$.
+  \item[$\Sigma_g$] A closed orientable surface of genus $g$.
+  \item[$\mathcal{O}$] A sheaf of holomorphic functions, or the structure sheaf.
+\end{description}
+
+\section{Complex Analysis}
+
+\begin{description}
+  \item[$\Re(s)$, $\Im(s)$] The real and imaginary parts of a complex number $s$.
+  \item[$\overline{z}$] The complex conjugate of $z$.
+  \item[$|z|$] The modulus of a complex number $z$.
+  \item[$\arg(z)$] The argument (angle) of a complex number $z$.
+  \item[$\Gamma(s)$] The Gamma function: $\Gamma(s) = \int_0^\infty t^{s-1} e^{-t}\, dt$.
+  \item[$\zeta(s)$] The Riemann zeta function: $\zeta(s) = \sum_{n=1}^\infty n^{-s}$ for $\Re(s) > 1$.
+  \item[$\xi(s)$] The completed zeta function: $\xi(s) = \pi^{-s/2} \Gamma(s/2) \zeta(s)$.
+  \item[$L(s,\chi)$] A Dirichlet $L$-function associated to the character $\chi$.
+  \item[$\operatorname{Li}(x)$] The logarithmic integral: $\operatorname{Li}(x) = \int_2^x \frac{dt}{\log t}$.
+\end{description}
+
+\section{Number Theory}
+
+\begin{description}
+  \item[$\pi(x)$] The prime-counting function: number of primes $\leq x$.
+  \item[$p_n$] The $n$-th prime number.
+  \item[$a_p$] The trace of Frobenius for an elliptic curve at $p$: $a_p = p + 1 - \#\widetilde{E}(\mathbb{F}_p)$.
+  \item[$\Delta$] The discriminant of an elliptic curve $y^2 = x^3 + ax + b$: $\Delta = -16(4a^3 + 27b^2)$.
+  \item[$j(E)$] The $j$-invariant of an elliptic curve $E$.
+  \item[$E(\mathbb{Q})$] The group of rational points on an elliptic curve $E$.
+  \item[$\widetilde{E}(\mathbb{F}_p)$] The reduction of $E$ modulo $p$.
+  \item[$\Sha$] The Tate--Shafarevich group of an elliptic curve.
+  \item[$\hat{h}$] The canonical (N\'{e}ron--Tate) height function on $E(\mathbb{Q})$.
+  \item[$h$] The naive (logarithmic) height function.
+  \item[$L(E,s)$] The $L$-function of an elliptic curve $E$.
+  \item[$\psi(x)$] The Chebyshev function: $\psi(x) = \sum_{p^k \leq x} \log p$.
+\end{description}
+
+\section{Algebra}
+
+\begin{description}
+  \item[$G$] A group.
+  \item[$\mathfrak{g}$] A Lie algebra.
+  \item[{$[x,y]$}] The Lie bracket or commutator.
+  \item[$\mathrm{GL}(n)$] The general linear group of $n \times n$ invertible matrices.
+  \item[$\mathrm{SL}(n)$] The special linear group ($\det = 1$).
+  \item[$\mathrm{SU}(n)$] The special unitary group.
+  \item[$\mathrm{SO}(n)$] The special orthogonal group.
+  \item[$\mathrm{U}(1)$] The circle group; the gauge group of electromagnetism.
+  \item[$\mathrm{Hom}(G,H)$] The group of homomorphisms from $G$ to $H$.
+  \item[$\otimes$] The tensor product.
+  \item[$\oplus$] The direct sum.
+  \item[$\operatorname{tr}$] The trace of a matrix or linear map.
+\end{description}
+
+\section{Gauge Theory and Physics}
+
+\begin{description}
+  \item[$A_\mu$] The gauge field (connection 1-form).
+  \item[$F_{\mu\nu}$] The field strength tensor: $F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu - ig[A_\mu, A_\nu]$.
+  \item[$D_\mu$] The covariant derivative: $D_\mu = \partial_\mu - igA_\mu$.
+  \item[$g$] The coupling constant.
+  \item[$T^a$] The generators of the Lie algebra.
+  \item[$\mathrm{tr}$] The trace in the fundamental representation.
+  \item[$\sigma^i$] The Pauli matrices (for SU(2)).
+  \item[$\mathcal{L}$] The Lagrangian density.
+  \item[$\mathrm{Re}$] The Reynolds number (in fluid mechanics).
+  \item[$\nu$] Kinematic viscosity.
+  \item[$\mathbf{v}$] Velocity field (bold for vector fields).
+  \item[$p$] Pressure (in fluid mechanics) or a prime number (in number theory).
+  \item[$\rho$] Density (in fluid mechanics).
+\end{description}
+
+\section{Computational Complexity}
+
+\begin{description}
+  \item[$\Sigma$] The input alphabet for a Turing machine.
+  \item[$\delta$] The transition function of a Turing machine.
+  \item[$\mathrm{P}$] The class of problems solvable in polynomial time.
+  \item[$\mathrm{NP}$] The class of problems verifiable in polynomial time.
+  \item[$\mathrm{NP}$-complete] Problems in NP to which all other NP problems reduce.
+  \item[$\mathrm{NP}$-hard] Problems at least as hard as NP-complete problems (not necessarily in NP).
+  \item[$\leq_p$] Polynomial-time (Karp) reduction.
+  \item[$\mathrm{coNP}$] The class of problems whose complements are in NP.
+  \item[$\#\mathrm{P}$] The class of counting problems associated with NP.
+  \item[$\mathrm{PH}$] The polynomial hierarchy.
+  \item[$\mathrm{BPP}$] The class of problems solvable by probabilistic polynomial-time machines with bounded error.
+  \item[$\mathrm{BQP}$] The class of problems solvable by quantum computers in polynomial time.
+  \item[$\mathrm{PSPACE}$] The class of problems solvable with polynomial space.
+\end{description}
+
+\section{Elliptic Curves: Detailed Notation}
+
+\begin{description}
+  \item[$E: y^2 = x^3 + ax + b$] An elliptic curve in short Weierstrass form.
+  \item[$E(\mathbb{Q})$] The Mordell--Weil group of rational points.
+  \item[$\operatorname{rk}(E)$] The rank of $E(\mathbb{Q})$ (rank of the free part).
+  \item[{$E[n]$}] The $n$-torsion subgroup of $E$.
+  \item[$\widetilde{E}$] The reduction of $E$ modulo $p$.
+  \item[$N_p = \#\widetilde{E}(\mathbb{F}_p)$] The number of points on the reduced curve.
+  \item[$a_p = p + 1 - N_p$] The trace of Frobenius.
+  \item[$\Sha(E/\mathbb{Q})$] The Tate--Shafarevich group.
+  \item[$\operatorname{Sel}_n(E)$] The $n$-Selmer group.
+  \item[$E(\mathbb{Q})_{\mathrm{tors}}$] The torsion subgroup of $E(\mathbb{Q})$.
+  \item[$\hat{h}(P)$] The canonical height of a point $P \in E(\mathbb{Q})$.
+  \item[$h(P)$] The naive (logarithmic) height of a point $P \in E(\mathbb{Q})$.
+\end{description}

@@ -1,0 +1,308 @@
+\documentclass[11pt,a4paper]{book}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{positioning,decorations.pathmorphing,patterns}
+\usepackage{tikz-cd}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{appendix}
+\usepackage{makeidx}
+\makeindex
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    pdftitle={The Millennium Prize Problems: A Textbook for Undergraduate Students},
+    pdfencoding=auto,
+    unicode=true,
+}
+
+\setlength{\headheight}{26pt}
+\addtolength{\topmargin}{-14pt}
+
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}{Exercise}[chapter]
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{thesis}[theorem]{Thesis}
+\newtheorem{solution}[theorem]{Solution}
+
+\theoremstyle{definition}
+\newtheorem*{axiom}{Axiom}
+\newtheorem*{checkyou}{Check Your Understanding}
+
+\titleformat{\chapter}[display]
+  {\normalfont\Large\bfseries}
+  {\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\leftmark}
+\fancyhead[RO]{\rightmark}
+\fancyfoot[C]{\thepage}
+
+% Using standard LaTeX notation
+\DeclareMathOperator{\Gal}{Gal}
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\End}{End}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\rk}{rk}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\GL}{GL}
+\DeclareMathOperator{\SL}{SL}
+\DeclareMathOperator{\SO}{SO}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\res}{res}
+\newcommand{\Sha}{\ShaSymbol}
+\DeclareSymbolFont{cyrletters}{OT1}{cmr}{m}{n}
+\DeclareMathSymbol{\ShaSymbol}{\mathord}{cyrletters}{"58}
+\newcommand{\cl}{\operatorname{cl}}
+
+\title{The Millennium Prize Problems}
+\author{A Textbook for Undergraduate Students}
+\date{}
+
+\begin{document}
+
+\frontmatter
+
+\begin{titlepage}
+\thispagestyle{empty}
+\newgeometry{margin=0pt}
+\noindent\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{frontpage.png}
+\restoregeometry
+\end{titlepage}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\chapter*{Preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+At the dawn of the twenty-first century, the Clay Mathematics Institute announced seven problems\footnote{See \url{https://www.claymath.org/millennium-problems}.} spanning the breadth of mathematics and theoretical physics. Each problem carries a prize of one million dollars. More importantly, each defines a frontier: a place where existing methods reach their limits and new ideas are needed. As of 2026, only one---the Poincar\'{e} conjecture---has been solved.
+
+This book is an invitation to these frontiers. It is written for undergraduate students of mathematics, physics, computer science, and related fields who have completed a standard sequence in calculus, linear algebra, and basic abstract algebra. No graduate-level prerequisites are assumed, though some chapters draw on material (complex analysis, point-set topology, number theory) that may be encountered in advanced undergraduate courses. Each chapter is self-contained: the necessary concepts are developed from scratch, so readers need not work through the book in order.
+
+\section*{The Seven Problems}
+
+\begin{enumerate}
+  \item \textbf{The Poincar\'{e} conjecture} (Chapter~\ref{ch:poincare}). Is every simply connected, closed three-manifold homeomorphic to the three-sphere? \textit{Solved} by Grigori Perelman in 2002--2003, building on Richard Hamilton's Ricci flow program.
+
+  \item \textbf{The Riemann hypothesis} (Chapter~\ref{ch:riemann}). Do all non-trivial zeros of the Riemann zeta function lie on the critical line $\operatorname{Re}(s) = \tfrac{1}{2}$? The deepest open problem in number theory.
+
+  \item \textbf{P vs NP} (Chapter~\ref{ch:pvsnp}). Does every problem whose solution can be \emph{verified} quickly also admit a solution that can be \emph{found} quickly? The central question of computational complexity.
+
+  \item \textbf{The Navier--Stokes existence and smoothness problem} (Chapter~\ref{ch:navierstokes}). Do smooth, globally defined solutions to the incompressible Navier--Stokes equations exist in three dimensions for arbitrary smooth initial data? A problem at the intersection of analysis and fluid mechanics.
+
+  \item \textbf{The Yang--Mills existence and mass gap} (Chapter~\ref{ch:yangmills}). Can quantum Yang--Mills theory be constructed rigorously, and does it exhibit a mass gap? A problem linking mathematics and quantum field theory.
+
+  \item \textbf{The Hodge conjecture} (Chapter~\ref{ch:hodge}). Are certain cohomology classes on smooth projective complex varieties represented by algebraic cycles? A bridge between topology and algebraic geometry.
+
+  \item \textbf{The Birch and Swinnerton-Dyer conjecture} (Chapter~\ref{ch:birch}). Does the rank of an elliptic curve over $\mathbb{Q}$ equal the order of vanishing of its $L$-function at $s = 1$? A central problem in arithmetic geometry.
+\end{enumerate}
+
+\section*{How to Use This Book}
+
+Each chapter follows the same structure: a historical introduction, a development of the necessary mathematical background, a precise statement of the problem, a survey of known results and approaches, and a discussion of connections to other areas. Pedagogical features include:
+
+\begin{itemize}
+  \item \textbf{Key Ideas} (start of each chapter): A concise summary of the core concepts, so you know what to expect before diving in.
+  \item \textbf{Worked Examples}: Detailed solutions to concrete problems, illustrating the techniques in action. Study these with pencil and paper before attempting the exercises.
+  \item \textbf{Check Your Understanding}: Short questions placed after key definitions or results. Pause and try each one before reading on---they help you gauge whether you have absorbed the idea.
+  \item \textbf{Exercises} (end of each chapter): Problems ranging from straightforward to challenging. The first few in each section require only an understanding of definitions; later ones develop new techniques and open doors to further study.
+  \item \textbf{Chapter Summary} (end of each chapter): A recap of the main results, the key technique, and connections to other chapters.
+\end{itemize}
+
+We recommend the following approach:
+\begin{enumerate}
+  \item Read the introduction for motivation and historical context.
+  \item Work through the technical sections, pausing at each ``Check Your Understanding.''
+  \item Study the worked examples with pencil and paper.
+  \item Attempt the exercises, starting with the easier ones.
+  \item Read the chapter summary to consolidate what you have learned.
+\end{enumerate}
+
+\section*{Prerequisites by Chapter}
+
+The chapters are not uniform in technical depth. Here is what each requires:
+
+\begin{itemize}
+  \item Chapter~\ref{ch:poincare} (Poincar\'{e}): multivariable calculus, basic topology
+  \item Chapter~\ref{ch:riemann} (Riemann): complex analysis, elementary number theory
+  \item Chapter~\ref{ch:pvsnp} (P vs NP): discrete mathematics, basic algorithms
+  \item Chapter~\ref{ch:navierstokes} (Navier--Stokes): multivariable calculus, ODEs/PDEs
+  \item Chapter~\ref{ch:yangmills} (Yang--Mills): linear algebra, basic physics
+  \item Chapter~\ref{ch:hodge} (Hodge): linear algebra, basic algebraic geometry
+  \item Chapter~\ref{ch:birch} (Birch--Swinnerton-Dyer): abstract algebra, elementary number theory
+\end{itemize}
+
+Chapters on the Riemann hypothesis and P vs NP are the most accessible. The chapters on Yang--Mills and Hodge require more background and may be better suited for a second course or an advanced reading seminar.
+
+\section*{For Instructors}
+
+This book is suitable for a one-semester topics course or a reading course. The seven chapters are independent and can be selected according to interest. Supplementary problem sets and lecture notes are available from the author.
+
+\section*{Acknowledgments}
+
+The author thanks the Clay Mathematics Institute for maintaining the official problem descriptions and for its support of the mathematical community. Special thanks to the many mathematicians whose work is summarized in these pages, and to the students who tested early versions of these chapters.
+
+\mainmatter
+
+%------------------------------------------------------------
+% PART I: THE SOLVED PROBLEM
+%------------------------------------------------------------
+\part{The Solved Problem}
+
+\include{chapters/ch01_poincare}
+
+%------------------------------------------------------------
+% PART II: THE OPEN PROBLEMS
+%------------------------------------------------------------
+\part{The Open Problems}
+
+\include{chapters/ch02_riemann}
+\include{chapters/ch03_pvsnp}
+\include{chapters/ch04_navierstokes}
+\include{chapters/ch05_yangmills}
+\include{chapters/ch06_hodge}
+\include{chapters/ch07_birch}
+
+%------------------------------------------------------------
+% APPENDICES
+%------------------------------------------------------------
+\appendix
+
+\include{appendices/appendix_prerequisites}
+\include{appendices/appendix_notation}
+\include{appendices/appendix_biographies}
+\include{appendices/appendix_glossary}
+\include{appendices/appendix_problems}
+
+%------------------------------------------------------------
+% BACK MATTER
+%------------------------------------------------------------
+\backmatter
+
+\chapter*{Epilogue}
+\addcontentsline{toc}{chapter}{Epilogue}
+
+\section*{The State of the Problems (2026)}
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+\textbf{Problem} & \textbf{Status} & \textbf{Notes} \\
+\midrule
+Poincar\'{e} conjecture & Solved & Perelman (2002--2003), prize declined \\
+Riemann hypothesis & Open & Computational verification to $10^{13}$ zeros \\
+P vs NP & Open & Consensus favors P $\neq$ NP \\
+Navier--Stokes & Open & Millennium version: existence + smoothness \\
+Yang--Mills \&\& mass gap & Open & Rigorous QFT in 4D not yet constructed \\
+Hodge conjecture & Open & Known for dimension $\leq 2$ \\
+Birch--Swinnerton-Dyer & Open & Known for analytic rank $\leq 1$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section*{Final Thoughts}
+
+The Millennium Prize Problems represent the deepest questions at the foundations of mathematics. They connect to every branch of the subject: topology, number theory, analysis, algebra, geometry, logic, and mathematical physics. To understand them even at an introductory level is to glimpse the landscape of modern mathematics.
+
+The solved Poincar\'{e} conjecture shows that these problems are not forever beyond reach. The six remaining open problems await the insight of future generations. Perhaps one of the readers of this book will be the one to claim the next million-dollar prize.
+
+As David Hilbert said in 1900: \textit{``Wir m\"{u}ssen wissen---wir werden wissen.''} (We must know---we shall know.)
+
+%------------------------------------------------------------
+% BIBLIOGRAPHY
+%------------------------------------------------------------
+\begin{thebibliography}{99}
+
+\bibitem{clay} Clay Mathematics Institute, \textit{The Millennium Prize Problems}, 2000. Available at \url{https://www.claymath.org/millennium-problems}.
+
+\bibitem{perelman1} G. Perelman, \textit{The entropy formula for the Ricci flow and its geometric applications}, arXiv:math/0211159, 2002.
+
+\bibitem{perelman2} G. Perelman, \textit{Ricci flow with surgery on three-manifolds}, arXiv:math/0303109, 2003.
+
+\bibitem{perelman3} G. Perelman, \textit{Finite extinction time for the solutions to the Ricci flow on certain three-manifolds}, arXiv:math/0307245, 2003.
+
+\bibitem{morgan} J. Morgan and G. Tian, \textit{Ricci Flow and the Poincar\'{e} Conjecture}, Clay Mathematics Monographs, AMS, 2007.
+
+\bibitem{hsmorgan} R. S. Hamilton, \textit{The Ricci flow on surfaces}, Contemp. Math.\\ \textbf{71} (1988), 237--262.
+
+\bibitem{cauchy} J. Milnor, \textit{Topology from the Differentiable Viewpoint}, Princeton University Press, 1965.
+
+\bibitem{hatcher} A. Hatcher, \textit{Algebraic Topology}, Cambridge University Press, 2002.
+
+\bibitem{spivak} M. Spivak, \textit{Calculus on Manifolds}, Westview Press, 1965.
+
+\bibitem{silverman} J. H. Silverman, \textit{The Arithmetic of Elliptic Curves}, 2nd ed., Springer GTM 106, 2009.
+
+\bibitem{riemann} B. Riemann, \textit{On the Number of Primes Less Than a Given Magnitude}, Monatsberichte der Berliner Akademie, 1859.
+
+\bibitem{edwards} H. M. Edwards, \textit{Riemann's Zeta Function}, Dover Publications, 1974.
+
+\bibitem{titchmarsh} E. C. Titchmarsh, \textit{The Theory of the Riemann Zeta-Function}, 2nd ed., Oxford University Press, 1986.
+
+\bibitem{conrey} J. B. Conrey, \textit{The Riemann hypothesis}, Notices AMS \textbf{50} (2003), 341--353.
+
+\bibitem{cook} S. A. Cook, \textit{The complexity of theorem-proving procedures}, Proceedings of the 3rd Annual ACM Symposium on Theory of Computing (STOC), 1971, pp.\\ 151--158.
+
+\bibitem{levin} L. A. Levin, \textit{Universal search problems}, Problems of Information Transmission \textbf{9} (1973), 265--266.
+
+\bibitem{sipser} M. Sipser, \textit{Introduction to the Theory of Computation}, 3rd ed., Cengage Learning, 2012.
+
+\bibitem{fefferman} C. L. Fefferman, \textit{Existence and smoothness of the Navier--Stokes equation}, Clay problem description, 2000.
+
+\bibitem{tao} T. Tao, \textit{Finite time blowup for an averaged three-dimensional Navier--Stokes equation}, J.\\ Amer.\\ Math.\\ Soc.\\ \textbf{29} (2016), 601--674.
+
+\bibitem{temam} R. Temam, \textit{Incompressible Fluid Mechanics and Navier--Stokes Equations}, Birkh\"{a}user, 2001.
+
+\bibitem{yangmills} C. N. Yang and R. L. Mills, \textit{Conservation of isotopic spin and isotopic gauge invariance}, Physical Review \textbf{96} (1954), 191--195.
+
+\bibitem{jaffe} A. Jaffe and E. Witten, \textit{Quantum Yang--Mills theory}, Clay problem description, 2000.
+
+\bibitem{hodge} W. V. D. Hodge, \textit{The Theory and Applications of Harmonic Integrals}, Cambridge University Press, 1941.
+
+\bibitem{deligne} P. Deligne, \textit{The Hodge conjecture}, Clay problem description, 2000.
+
+\bibitem{birch} B. J. Birch and H. P. F. Swinnerton-Dyer, \textit{Notes on elliptic curves. I}, J.\\ reine angew.\\ Math.\\ \textbf{212} (1963), 7--25.
+
+\bibitem{wiles} A. Wiles, \textit{The Birch and Swinnerton-Dyer conjecture}, Clay problem description, 2000.
+
+\bibitem{gouvea} F. Gouv\^{e}a, \textit{$p$-adic Numbers: An Introduction}, 2nd ed., Springer UTM, 1997.
+
+\bibitem{neukirch} J. Neukirch, \textit{Algebraic Number Theory}, Springer, 1999.
+
+\bibitem{hartshorne} R. Hartshorne, \textit{Algebraic Geometry}, Springer GTM 52, 1977.
+
+\end{thebibliography}
+
+\printindex
+
+\end{document}

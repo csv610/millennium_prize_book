@@ -1,0 +1,116 @@
+\chapter{Mathematical Preliminaries}
+\label{app:prerequisites}
+
+This appendix reviews the fundamental mathematical concepts that appear throughout the book. Students should be familiar with most of these topics from their undergraduate coursework; this serves as a reference.
+
+\section{Basic Set Theory and Notation}
+
+\begin{definition}
+The set of natural numbers is $\mathbb{N} = \{1, 2, 3, \ldots\}$. The integers are $\mathbb{Z} = \{\ldots, -2, -1, 0, 1, 2, \ldots\}$. The rational numbers are $\mathbb{Q} = \{p/q : p, q \in \mathbb{Z}, q \neq 0\}$. The real numbers are $\mathbb{R}$, and the complex numbers are $\mathbb{C} = \{a + bi : a, b \in \mathbb{R}\}$.
+\end{definition}
+
+For a set $S$, we write $|S|$ for its cardinality (number of elements). A function $f: A \to B$ is \textit{injective} (one-to-one) if $f(a_1) = f(a_2) \implies a_1 = a_2$, \textit{surjective} (onto) if every $b \in B$ has some $a \in A$ with $f(a) = b$, and \textit{bijective} if both.
+
+\section{Linear Algebra}
+
+\begin{definition}
+A \textit{vector space} over a field $F$ is a set $V$ equipped with addition $+: V \times V \to V$ and scalar multiplication $\cdot: F \times V \to V$ satisfying the usual axioms (associativity, commutativity, distributivity, existence of zero and additive inverses).
+\end{definition}
+
+A \textit{linear transformation} $T: V \to W$ between vector spaces satisfies $T(ax + by) = aT(x) + bT(y)$ for all $a, b \in F$ and $x, y \in V$.
+
+The \textit{dimension} $\dim V$ is the number of vectors in a basis. If $\dim V = n$, we can represent linear transformations by $n \times n$ matrices.
+
+\section{Abstract Algebra}
+
+\begin{definition}
+A \textit{group} is a set $G$ with a binary operation $\cdot: G \times G \to G$ satisfying:
+\begin{enumerate}
+  \item Associativity: $(g \cdot h) \cdot k = g \cdot (h \cdot k)$
+  \item Identity: $\exists e \in G$ such that $g \cdot e = e \cdot g = g$
+  \item Inverses: $\forall g \in G$, $\exists g^{-1}$ with $g \cdot g^{-1} = g^{-1} \cdot g = e$
+\end{enumerate}
+A group is \textit{abelian} if $g \cdot h = h \cdot g$ for all $g, h \in G$.
+\end{definition}
+
+\begin{definition}
+A \textit{ring} is a set $R$ with addition $+$ and multiplication $\cdot$ such that $(R, +)$ is an abelian group, multiplication is associative, and distributive laws hold. A \textit{field} is a ring where every nonzero element has a multiplicative inverse.
+\end{definition}
+
+\begin{definition}
+An \textit{elliptic curve} over a field $K$ is a smooth, projective algebraic curve of genus 1 with a distinguished $K$-rational point. It can be given by the Weierstrass equation:
+\[
+y^2 = x^3 + ax + b
+\]
+where $a, b \in K$ and the discriminant $\Delta = -16(4a^3 + 27b^2) \neq 0$.
+\end{definition}
+
+\section{Topology}
+
+\begin{definition}
+A \textit{topological space} is a set $X$ together with a collection $\mathcal{T}$ of subsets (called \textit{open sets}) such that:
+\begin{enumerate}
+  \item $\emptyset, X \in \mathcal{T}$
+  \item Arbitrary unions of open sets are open
+  \item Finite intersections of open sets are open
+\end{enumerate}
+\end{definition}
+
+\begin{definition}
+A \textit{homeomorphism} is a bijective continuous function $f: X \to Y$ with continuous inverse. Two spaces are \textit{homeomorphic} if such a map exists.
+\end{definition}
+
+\begin{definition}
+An \textit{$n$-dimensional manifold} (or $n$-manifold) is a topological space where every point has a neighborhood homeomorphic to $\mathbb{R}^n$ or the closed half-space $\mathbb{R}^n_{\ge 0}$. In the latter case, the boundary points form the \textit{manifold boundary}.
+\end{definition}
+
+The \textit{$n$-sphere} $S^n = \{x \in \mathbb{R}^{n+1} : \|x\| = 1\}$ is the simplest compact $n$-manifold.
+
+\begin{definition}
+The \textit{fundamental group} $\pi_1(X, x_0)$ of a space $X$ at basepoint $x_0$ is the group of homotopy classes of loops based at $x_0$. A space is \textit{simply connected} if $\pi_1(X) \cong \{e\}$ (the trivial group).
+\end{definition}
+
+\section{Analysis}
+
+\begin{definition}
+A function $f: \mathbb{R}^n \to \mathbb{R}^m$ is $C^k$ (or $k$ times continuously differentiable) if all partial derivatives of order $\le k$ exist and are continuous. A function is $C^\infty$ (smooth) if it is $C^k$ for all $k$.
+\end{definition}
+
+\begin{definition}
+A \textit{partial differential equation} (PDE) is an equation involving an unknown function $u(x_1, \ldots, x_n)$ and its partial derivatives. The \textit{order} of a PDE is the highest order of derivative appearing.
+\end{definition}
+
+\begin{definition}
+The \textit{Laplacian} of a function $u: \mathbb{R}^n \to \mathbb{R}$ is:
+\[
+\Delta u = \sum_{i=1}^n \frac{\partial^2 u}{\partial x_i^2}
+\]
+\end{definition}
+
+\section{Complex Analysis}
+
+\begin{definition}
+A function $f: U \to \mathbb{C}$ (where $U \subseteq \mathbb{C}$ is open) is \textit{holomorphic} (or analytic) if it is complex-differentiable at every point of $U$. This means the limit
+\[
+f'(z) = \lim_{h \to 0} \frac{f(z + h) - f(z)}{h}
+\]
+exists for all $z \in U$.
+\end{definition}
+
+\begin{definition}
+The \textit{Riemann zeta function} is defined for $\mathbb{R}e(s) > 1$ by:
+\[
+\zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}
+\]
+It extends meromorphically to $\mathbb{C} \setminus \{1\}$ with a simple pole at $s = 1$.
+\end{definition}
+
+\section{Algebraic Geometry}
+
+\begin{definition}
+A \textit{projective algebraic variety} over $\mathbb{C}$ is the set of common zeros of a collection of homogeneous polynomials in $\mathbb{P}^n(\mathbb{C})$. A subvariety is a subset defined by additional polynomial equations.
+\end{definition}
+
+\begin{definition}
+The \textit{cohomology} groups $H^k(X, \mathbb{Q})$ of a topological space $X$ are vector spaces that encode topological information. For a smooth projective variety, the cohomology groups carry additional structure (the Hodge decomposition).
+\end{definition}
